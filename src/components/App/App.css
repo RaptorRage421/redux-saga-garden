@@ -20,3 +20,22 @@
 pre {
     white-space: pre-wrap;
 }
+.form {
+  display: flex;
+}
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  
+}
+thead {
+  background-color: bisque;
+}
+
+tr:nth-child(even) {
+  background-color: beige;
+}
+td, tr {
+  border: 1px solid black;
+  padding: 5px;
+}
